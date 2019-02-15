@@ -1,0 +1,18 @@
+code {
+  margin: 0 px;
+  padding: 0 5px;
+  border: 1px solid blue;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.attribute {
+  margin: 0 px;
+  padding: 0 5px;
+  border: 1px solid red;
+  background-color: #f8f8f8;
+  color: black;
+  border-radius: 3px;
+  font-size: 14px;
+}

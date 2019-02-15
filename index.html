@@ -3,12 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>A List Apart: For People Who Make Websites</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- semantic html tags c/w text - bitmaker assignment -->
     <noscript>
-      <iframe src="#" width="0" height="0">The HTML5 'noscript' element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</iframe>
+      <iframe src="#" width="0" height="0"></iframe>
     </noscript>
+
+        <p>The HTML5 <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
+        <p>The HTML5 <code>iframe</code> element represents a nested browsing context. For <code>iframe</code> elements in HTML documents, the attribute, if present, must have a value using the HTML syntax that consists of the following syntactic components, in the given order:
+          <ul>
+            <li>Any number of comments and space characters.</li>
+            <li>Optionally, a DOCTYPE.</li>
+            <li>Any number of comments and space characters.</li>
+            <li>The root element, in the form of an html element.</li>
+            <li>Any number of comments and space characters.</li>
+          </ul>
+        </p>
 
     <header class="#">
       <h1> <!-- hidden comment -->
@@ -22,10 +34,39 @@
         <p>The HTML5 <code>header</code> element represents the "header" of a document or section of a document. The <code>header</code> element is typically used to group a set of <code>h1</code>–<code>h6</code> elements to mark up a page's title with its subtitle or tagline. <code>header</code> elements may, however, contain more than just the section's headings and subheadings — e.g., version history information or publication date. February 15, 2019</p>
     </header>
 
-    <a href="#">Menu</a>
-      <p>If the HTML5 <code>a</code> element has an <code>href</code> attribute, then it represents a hyperlink (a hypertext anchor). If the <code>a</code> element has no <code>href</code> attribute, then the element represents a placeholder for where a link might otherwise have been placed, if it had been relevant. The <code>target</code>, <code>rel</code>, <code>media</code>, <code>hreflang</code>, and <code>type</code> attributes must be omitted if the <code>href</code> attribute is not present.</p>
-      
+        <p>If the HTML5 <code>a</code> element has an <code class="attribute">href</code> attribute, then it represents a hyperlink (a hypertext anchor). If the <code>a</code> element has no <code class="attribute">href</code> attribute, then the element represents a placeholder for where a link might otherwise have been placed, if it had been relevant. The <code class="attribute">target</code>, <code class="attribute">rel</code>, <code class="attribute">media</code>, <code class="attribute">hreflang</code>, and <code class="attribute">type</code> attributes must be omitted if the <code class="attribute">href</code> attribute is not present.</p>
+
     <a href="http://html5doctor.com/element-index/#a" target="_blank">HTML5 Element Index</a>
+
+    <a href="#main-nav">Menu</a>
+
+    <nav id="main-nav">
+
+		<ul>
+			<li><a href="#"><span>Home</span></a></li>
+			<li><a href="#"><span>Articles</span></a></li>
+			<li><a href="#"><span>Events</span></a></li>
+			<li><a href="#"><span>Topics</span></a></li>
+			<li><a href="#"><span>Write for us</span></a></li>
+			<li><a href="#">Back to top</a></li>
+			<li>
+        <form class="" action="#" method="#">
+          <input type="hidden" name="#" value="form input text goes here">
+            <label for="#">
+              <input type="#" name="#" value="search">
+            </label>
+          <input type="image" name="" value="">
+				</form>
+			</li>
+		</ul>
+
+	  </nav>
+
+        <p>The HTML5 <code>nav</code> element represents navigation for a document. The <code>nav</code> element is a section containing links to other documents or to parts within the current document. Not all groups of links on a page need to be in a <code>nav</code> element — only groups of primary navigation links. In particular, it is common for footers to have a list of links to various key parts of a site, but the <code>footer</code> element is more appropriate in such cases.</p>
+
+        <p>The HTML5 <code>ul</code>element represents a list of items, where the order of the items is not important — that is, where changing the order would not materially change the meaning of the list.</p>
+
+        <p>The HTML5 <code>li</code>element represents a list item. If its parent element is an <code>ol</code>, <code>ul</code>, or <code>menu</code> element, then the element is an item of the parent element's list, as defined for those elements. Otherwise, the list item has no defined list-related relationship to any other <code>li</code> element.</p>
 
   </body>
 </html>
